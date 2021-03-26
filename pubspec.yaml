@@ -1,0 +1,66 @@
+name: flutter_unleashed
+description: A Flutter project.
+
+publish_to: "none"
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.7.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  another_flushbar: ^1.10.17
+  circular_splash_transition: ^0.2.1
+  data_connection_checker: ^0.3.4
+  dio: ^4.0.0-prev3
+  flutter_bloc: ^7.0.0
+  flutter_staggered_animations: ^1.0.0
+  freezed_annotation: ^0.12.0
+  line_awesome_icons: ^1.0.4+2
+  loading_indicator: ^2.0.0
+  responsive_framework: ^0.1.0
+  salomon_bottom_bar: ^3.0.0
+  shared_preferences: ^2.0.5
+  sortedmap: ^0.4.2+1
+  animated_text_kit: ^4.1.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  build_runner: ^1.10.2
+  freezed: ^0.12.7
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/no_internet.png
+    - assets/images/server_failure.png
+    - assets/images/bear-logo.png
+    - assets/images/splashscreenbackground.png
+    - assets/images/lonebackground.png
+    - assets/images/loneforeground.png
+    - assets/images/pokemons/Bulbasaur.jpg
+    - assets/images/pokemons/Butterfree.jpg
+    - assets/images/pokemons/Charizard.jpg
+    - assets/images/pokemons/Eevee.jpg
+    - assets/images/pokemons/Grookey.jpg
+    - assets/images/pokemons/Koofing.jpg
+    - assets/images/pokemons/Marill.jpg
+    - assets/images/pokemons/Pikachu.jpg
+    - assets/images/pokemons/Psyduck.jpg
+    - assets/images/pokemons/Ponyta.jpg
+    - assets/images/pokemons/Sirfetchd.jpg
+    - assets/images/pokemons/Slowbro.jpg
+    - assets/images/pokemons/Sobble.jpg
+    - assets/images/pokemons/Starmie.jpg
+
+  fonts:
+    - family: Poppins
+      fonts:
+        - asset: assets/fonts/Poppins-Regular.ttf
+          weight: 400
+        - asset: assets/fonts/Poppins-Medium.ttf
+          weight: 500
+        - asset: assets/fonts/Poppins-Bold.ttf
+          weight: 600
