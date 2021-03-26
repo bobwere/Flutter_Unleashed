@@ -28,6 +28,11 @@ https://drive.google.com/drive/folders/1oHg7BTuEOllvqjHpWI8JjqHBVNvF6eUI?usp=sha
  * used bloc pattern to manage the dictionary state that is (unsorted,sorted by numeric key or sorted by alpha key)
    and also manage current users favourite pokemons
  * for the response page employed local state (setstate) to manage api locals since its only consumed by the response page only
+
+## App Responsiveness to different Screen Resolutions
+ * employed global auto scale and auto resize depending on different breakpoints e.g mobile 480 , tablet 800 , desktop 1000
+ * employed use of MediaQuery for layout widget, to scale according to screen size 
+ 
  
  
  
