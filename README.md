@@ -1,11 +1,12 @@
 # Flutter Unleashed
 App to allow user to create a profile, manage todos, browse and favourite pokemons
 
-## Link
+## Link to APK
 https://drive.google.com/file/d/1MnHStnmKfy4G7Vx8pZA7alAYJrNbiPta/view?usp=sharing
 
 ## Design
 link to wireframes used to conceptualize app design
+https://drive.google.com/drive/folders/1oHg7BTuEOllvqjHpWI8JjqHBVNvF6eUI?usp=sharing
 
 ## Features
  * create user profile
