@@ -12,6 +12,7 @@ https://drive.google.com/drive/folders/1oHg7BTuEOllvqjHpWI8JjqHBVNvF6eUI?usp=sha
  * create user profile
  * edit user profile
  * delete user profile
+ * save user profile to sharedpreference
  * info page the form autovalidates to allow user to correct errors before submission
  * fetch todos from jsonplaceholder api
  * able to filter fetched todos by status (incomplete or completed)
@@ -29,6 +30,9 @@ https://drive.google.com/drive/folders/1oHg7BTuEOllvqjHpWI8JjqHBVNvF6eUI?usp=sha
    and also manage current users favourite pokemons
  * for the response page employed local state (setstate) to manage api locals since its only consumed by the response page only
 
+## Persisting State
+ * used SharedPreference to persist state between each app kill/restart
+ 
 ## App Responsiveness to different Screen Resolutions
  * employed global auto scale and auto resize depending on different breakpoints e.g mobile 480 , tablet 800 , desktop 1000
  * employed use of MediaQuery for layout widget, to scale according to screen size 
